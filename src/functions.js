@@ -1,17 +1,15 @@
 // 1 - Crie a função ligarDesligar, que ligue e desligue um motor de um carro.
 
 const ligarDesligar = (status) => {
-  status === 'ligado' ? (status = 'desligado') : (status = 'ligado');
+  let result = status === 'ligado' ? (status = 'desligado') : (status = 'ligado');
   console.log(`O motor está ${status}`);
-  return status;
+  return result;
 };
 
 // 2 - Crie a função circleArea, que calcule a área de um círculo.
 
-const circleArea = (raio) => {
-return typeof raio !== 'number' ?  `O parâmetro radius deve ser um número` :  `Essa é a área do círculo: ${3.14 * (raio * raio)}`;
-};
-
+const circleArea = (raio) => (typeof raio !== 'number'
+  ? 'O parâmetro radius deve ser um número' : `Essa é a área do círculo: ${3.14 * (raio * raio)}`);
 
 // 3 - Crie a função longestWord, que receba uma frase como parâmetro e retorne a maior palavra da frase.
 
