@@ -4,7 +4,7 @@
 
 <br/>
 
-In this project, I've written three functions using skills learned last week. Additionally, I have practiced logic and computational thinking."
+In this project, I've written three functions using skills learned last week. Additionally, I have practiced logic and computational thinking.
 
 ## Project Description
 
