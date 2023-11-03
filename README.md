@@ -10,10 +10,6 @@ In this project, I've written three functions using skills learned last week. Ad
 
 This javascript project aims to test my hability in solve problems with code lines. Below are the key aspects of the project:
 
-### Project Structure
-
-The project consists of a single js file (`functions.js`) and an some tests using Jest (`/tests`).
-
 ### Technologies
 
 - LINUX
